@@ -1,12 +1,12 @@
 //função retorno de idade
-function idade(anonascimento){
-    return 2024-anonascimento
+function idade(anonascimento) {
+  return 2024 - anonascimento;
 }
 var nome = "bianca";
 console.log(`"ola, eu sou ${nome} e tenho ${idade(2007)} anos de idade`);
 
-function mediacombustivel(combustivel,kml) {
-return combustivel + kml
+function mediacombustivel(combustivel, kml) {
+  return combustivel + kml;
 }
 
 console.log(`carro 1: 20L -> percorre ${mediacombustivel(20, 12)}kms.`);
