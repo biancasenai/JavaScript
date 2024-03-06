@@ -12,7 +12,7 @@ switch (menuselecionado) {
   case "contato":
     console.log(`voce clicou no link contato`);
     break;
-  default:
+  default :
     console.log(`opção invalida`);
     break;
 }
